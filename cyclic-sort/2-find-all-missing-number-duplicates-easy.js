@@ -1,3 +1,5 @@
+// 1...n
+
 function find_missing_number(nums) {
     let i = 0
     const n = nums.length

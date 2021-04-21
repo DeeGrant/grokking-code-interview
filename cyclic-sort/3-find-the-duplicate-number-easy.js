@@ -19,7 +19,8 @@ function find_duplicate(nums) {
 }
 
 // Time complexity
-// O(n) + O(n-1) + O(n) = O(n)
+// O(n)
 
 // Space complexity
 // O(1)
+// modifies the original array
