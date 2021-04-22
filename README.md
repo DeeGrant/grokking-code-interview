@@ -14,8 +14,8 @@ ___
 ### 4. [Merge Intervals](merge-intervals)
 ### 5. [Cyclic Sort](cyclic-sort)
 ### 6. [In-place Reversal of Linked List](linkedlist-reversal)
-### 7. Tree BFS (Breadth First Search)
-### 8. Tree DFS (Depth First Search)
+### 7. [Tree BFS (Breadth First Search)](tree-bfs)
+### 8. [Tree DFS (Depth First Search)](tree-dfs)
 ### 9. Two heaps
 ### 10. Subsets
 ### 11. Modified Binary Search
@@ -26,4 +26,5 @@ ___
 ___
 
 #### Improvements
-- check the first 3 cyclyc sort algorithms are correct. Names and code
+- add first three patterns
+- set up local run of algorithms

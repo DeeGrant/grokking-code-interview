@@ -1,14 +1,9 @@
-
-
 function find_duplicate(arr) {
     let slow = arr[0]
     let fast = arr[0]
 
-    // TODO review this pattern
-    // why is this needed?
     while (slow !== fast) {
         slow = arr[slow]
-        // console.log('slow ', slow)
         fast = arr[arr[fast]]
     }
 
