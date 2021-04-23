@@ -16,7 +16,7 @@ ___
 ### 6. [In-place Reversal of Linked List](linkedlist-reversal)
 ### 7. [Tree BFS (Breadth First Search)](tree-bfs)
 ### 8. [Tree DFS (Depth First Search)](tree-dfs)
-### 9. Two heaps
+### 9. [Two Heaps](two-heaps)
 ### 10. Subsets
 ### 11. Modified Binary Search
 ### 12. Top K Elements

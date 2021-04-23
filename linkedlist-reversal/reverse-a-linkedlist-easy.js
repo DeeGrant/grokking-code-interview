@@ -41,6 +41,7 @@ head.print_list()
 
 // Time complexity
 // O(n)
+// n = number of nodes in the linkedList
 
 // Space complexity
 // O(1)
