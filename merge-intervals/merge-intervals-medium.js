@@ -6,7 +6,7 @@ class Interval {
 
     print_interval() {
         // console.log without a newline
-        process.stdout.write(`${this.start}, ${this.end}`)
+        process.stdout.write(`[${this.start}, ${this.end}]`)
     }
 }
 
@@ -24,14 +24,24 @@ function merge(intervals) {
 
     for (i = 1; i < intervals.length; i++) {
         const interval = intervals[i]
-        if (interval.start <= end) { // overlapping intervals
+
+        if (interval.start <= end) {
+            // overlapping intervals
+
+            // adjust the 'end'
             end = Math.max(interval.end, end)
-        } else { // non-overlapping interval
+        } else {
+            // non-overlapping intervals
+
+            // add the previous interval
             mergedIntervals.push(new Interval(start, end))
+
+            // reset
             start = interval.start
             end = interval.end
         }
     }
+
     // add the last interval
     mergedIntervals.push(new Interval(start, end))
 
