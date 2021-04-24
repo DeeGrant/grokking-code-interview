@@ -8,7 +8,7 @@ Article Summary [here](https://hackernoon.com/14-patterns-to-ace-any-coding-inte
 ___
 
 ## Patterns
-### 1. Sliding Window
+### 1. [Sliding Window](sliding-window)
 ### 2. Two Pointers or Iterators
 ### 3. Fast and Slow Pointers
 ### 4. [Merge Intervals](merge-intervals)
