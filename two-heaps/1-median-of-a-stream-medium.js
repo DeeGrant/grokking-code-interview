@@ -53,4 +53,4 @@ console.log(medianFinder.find_median())
 
 // Space complexity
 // O(N)
-// we are storing al the numbers
+// we are storing all the numbers

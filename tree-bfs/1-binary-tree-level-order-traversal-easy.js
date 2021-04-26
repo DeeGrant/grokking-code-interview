@@ -1,4 +1,4 @@
-// const Deque = require('.collections/deque') //http://www.collectionsjs.com
+const Deque = require('.collections/deque') //http://www.collectionsjs.com
 
 class TreeNode {
     constructor(val) {
@@ -8,16 +8,13 @@ class TreeNode {
     }
 }
 
-
 function traverse(root) {
     const result = []
     if (root === null) {
         return result
     }
 
-    // TODO add Deque
-    // const queue = new Deque()
-    const queue = []
+    const queue = new Deque()
     queue.push(root)
 
     while (queue.length > 0) {

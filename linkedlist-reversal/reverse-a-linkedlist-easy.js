@@ -33,9 +33,12 @@ const head = new Node(2, new Node(4, new Node(6, new Node(8, new Node(10)))))
 process.stdout.write(`Nodes of original LinkedList are: `)
 head.print_list()
 
-reverse(head)
+let newHead = reverse(head)
 
 process.stdout.write(`Nodes of reversed LinkedList are: `)
+newHead.print_list()
+
+// point to last node of reversed list?
 head.print_list()
 
 

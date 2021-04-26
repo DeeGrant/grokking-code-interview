@@ -26,5 +26,8 @@ ___
 ___
 
 #### Improvements
-- add first three patterns
+- finish adding sliding window
+- Add two pointers or iterators
+- Add fast and slow pointers
+- Add medium and hard versions of patterns
 - set up local run of algorithms
