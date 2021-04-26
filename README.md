@@ -9,7 +9,7 @@ ___
 
 ## Patterns
 ### 1. [Sliding Window](sliding-window)
-### 2. Two Pointers or Iterators
+### 2. [Two Pointers or Iterators](two-pointers-or-iterators)
 ### 3. Fast and Slow Pointers
 ### 4. [Merge Intervals](merge-intervals)
 ### 5. [Cyclic Sort](cyclic-sort)
@@ -17,8 +17,8 @@ ___
 ### 7. [Tree BFS (Breadth First Search)](tree-bfs)
 ### 8. [Tree DFS (Depth First Search)](tree-dfs)
 ### 9. [Two Heaps](two-heaps)
-### 10. Subsets
-### 11. Modified Binary Search
+### 10. [Subsets](subsets)
+### 11. [Modified Binary Search](modified-binary-search)
 ### 12. Top K Elements
 ### 13. K-way Merge
 ### 14. Topological Sort
@@ -26,7 +26,6 @@ ___
 ___
 
 #### Improvements
-- finish adding sliding window
 - Add two pointers or iterators
 - Add fast and slow pointers
 - Add medium and hard versions of patterns
