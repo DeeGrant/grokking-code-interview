@@ -10,7 +10,7 @@ ___
 ## Patterns
 ### 1. [Sliding Window](sliding-window)
 ### 2. [Two Pointers or Iterators](two-pointers-or-iterators)
-### 3. Fast and Slow Pointers
+### 3. [Fast and Slow Pointers](fast-and-slow-pointers)
 ### 4. [Merge Intervals](merge-intervals)
 ### 5. [Cyclic Sort](cyclic-sort)
 ### 6. [In-place Reversal of Linked List](linkedlist-reversal)
@@ -22,11 +22,12 @@ ___
 ### 12. Top K Elements
 ### 13. K-way Merge
 ### 14. Topological Sort
+### 15. [Bitwise XOR](bitwise-xor)
 
 ___
 
 #### Improvements
-- Add two pointers or iterators
-- Add fast and slow pointers
+- Catch up two pointers or iterators
+- Catch up fast and slow pointers
 - Add medium and hard versions of patterns
 - set up local run of algorithms
