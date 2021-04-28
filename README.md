@@ -19,7 +19,7 @@ ___
 ### 9. [Two Heaps](two-heaps)
 ### 10. [Subsets](subsets)
 ### 11. [Modified Binary Search](modified-binary-search)
-### 12. Top K Elements
+### 12. [Top K Elements](top-k-elements)
 ### 13. K-way Merge
 ### 14. Topological Sort
 ### 15. [Bitwise XOR](bitwise-xor)
