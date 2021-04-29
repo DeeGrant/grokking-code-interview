@@ -7,7 +7,7 @@ class Point {
     }
     // use for max-heap
     compare(other) {
-        return this.distance_from_origin() - other.distance_from_origin()
+        return this.distance_from_origin() - other.distance_from_origin() // ascending sort
     }
     distance_from_origin() {
         // ignoring sqrt ot calculate the distance
