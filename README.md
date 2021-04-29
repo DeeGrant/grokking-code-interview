@@ -20,7 +20,7 @@ ___
 ### 10. [Subsets](subsets)
 ### 11. [Modified Binary Search](modified-binary-search)
 ### 12. [Top K Elements](top-k-elements)
-### 13. K-way Merge
+### 13. [K-way Merge](k-way-merge)
 ### 14. Topological Sort
 ### 15. [Bitwise XOR](bitwise-xor)
 
