@@ -23,10 +23,12 @@ ___
 ### 13. [K-way Merge](k-way-merge)
 ### 14. Topological Sort
 ### 15. [Bitwise XOR](bitwise-xor)
+### 16. [Dynamic Programming](dynamic-programming)
 
 ___
 
 #### Improvements
+- Review Dynamic Programming
 - Catch up two pointers or iterators
 - Catch up fast and slow pointers
 - Add medium and hard versions of patterns
