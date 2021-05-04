@@ -39,3 +39,10 @@ const profits = [4,5,3,7]
 const weigths = [2,3,1,4]
 
 
+// Time complexity
+// O(N * C)
+// C = maximum capacity
+
+// Space complexity
+// O(N * C)
+

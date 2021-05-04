@@ -28,7 +28,7 @@ ___
 ___
 
 #### Improvements
-- Review Dynamic Programming
+- [Review Dynamic Programming](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/RM1BDv71V60)
 - Catch up two pointers or iterators
 - Catch up fast and slow pointers
 - Add medium and hard versions of patterns

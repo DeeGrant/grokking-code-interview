@@ -15,18 +15,19 @@ let solveKnapsack = function (profits, weights, capacity) {
 
     // process all sub-arrays for all the capacities
     for (let i = 1; i < n; i++) {
+        // going from back of array to front because we won't be writing over information we are using to calculate the later indexes?
         for (let c = capacity; c >= 0; c--) {
-            let profit1 = 0
-            let profit2 = 0
+            let newProfit = 0
+            let previousProfit = 0
 
             // include the item, if it is not more than the capacity
-            if (weights[i] <= c) profit1 = profits[i] + dp[c - weights[i]]
+            if (weights[i] <= c) newProfit = profits[i] + dp[c - weights[i]]
 
+            // take the maximum of the profit value already at that index
             // exclude item
-            profit2 = dp[c]
-
+            previousProfit = dp[c]
             // take maximum
-            dp[c] = Math.max(profit1, profit2)
+            dp[c] = Math.max(newProfit, previousProfit)
         }
     }
 
@@ -42,7 +43,8 @@ console.log(`Total knapsack profit: ---> ${solveKnapsack(profits, weigths, 6)}`)
 
 
 // Time complexity
-//
+// O(N * C)
+// C = maximum capacity
 
 // Space complexity
-//
+// O(2 * C) -> O(C)
