@@ -21,7 +21,7 @@ ___
 ### 11. [Modified Binary Search](modified-binary-search)
 ### 12. [Top K Elements](top-k-elements)
 ### 13. [K-way Merge](k-way-merge)
-### 14. Topological Sort
+### 14. [Topological Sort (Graph)](topological-sort)
 ### 15. [Bitwise XOR](bitwise-xor)
 ### 16. [Dynamic Programming](dynamic-programming)
 
